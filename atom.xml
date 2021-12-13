@@ -3,11 +3,11 @@
   <title>WTJ</title>
   
   <subtitle>Blog记录</subtitle>
-  <link href="http://wangxiatian.github.io/project/atom.xml" rel="self"/>
+  <link href="http://example.com/atom.xml" rel="self"/>
   
-  <link href="http://wangxiatian.github.io/project/"/>
+  <link href="http://example.com/"/>
   <updated>2021-12-12T13:21:04.040Z</updated>
-  <id>http://wangxiatian.github.io/project/</id>
+  <id>http://example.com/</id>
   
   <author>
     <name>W TJ</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://wangxiatian.github.io/project/2021/12/12/hello-world/"/>
-    <id>http://wangxiatian.github.io/project/2021/12/12/hello-world/</id>
+    <link href="http://example.com/2021/12/12/hello-world/"/>
+    <id>http://example.com/2021/12/12/hello-world/</id>
     <published>2021-12-12T13:21:04.040Z</published>
     <updated>2021-12-12T13:21:04.040Z</updated>
     
