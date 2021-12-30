@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="测试字数与阅读时间, WTJ">
-    <meta name="description" content="title: typora-vue-theme主题介绍date: 2018-09-07 09:25:00author: 赵奇img: /source/images/xxx.jpgtop: truehide: falsecover: true">
+    <meta name="keywords" content="Dockerh挂载总结, WTJ">
+    <meta name="description" content="关于Docker目录挂载的总结0.文章说明本文来自🌟关于Docker目录挂载的总结 - iVictor - 博客园 (cnblogs.com)🌟，由于担心找不到所以才全文转载，在文章的开头着重说明。文章已经完整的看过，与自己的经验完全吻">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>测试字数与阅读时间 | WTJ</title>
+    <title>Dockerh挂载总结 | WTJ</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -326,12 +326,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">测试字数与阅读时间</h1>
+                    <h1 class="description center-align post-title">Dockerh挂载总结</h1>
                 </div>
             </div>
         </div>
@@ -447,8 +447,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%B5%8B%E8%AF%95/">
-                                <span class="chip bg-color">测试</span>
+                            <a href="/tags/Docker/">
+                                <span class="chip bg-color">Docker</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/">
+                                <span class="chip bg-color">计算机工具</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%BD%AC%E8%BD%BD/">
+                                <span class="chip bg-color">转载</span>
                             </a>
                         
                     </div>
@@ -463,7 +471,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-25
+                    2021-12-27
                 </div>
                 
 
@@ -484,56 +492,161 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:</p>
+                <h1 id="关于Docker目录挂载的总结"><a href="#关于Docker目录挂载的总结" class="headerlink" title="关于Docker目录挂载的总结"></a>关于Docker目录挂载的总结</h1><h2 id="0-文章说明"><a href="#0-文章说明" class="headerlink" title="0.文章说明"></a>0.文章说明</h2><p>本文来自<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><a target="_blank" rel="noopener" href="https://www.cnblogs.com/ivictor/p/4834864.html">关于Docker目录挂载的总结 - iVictor - 博客园 (cnblogs.com)</a><span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>，由于担心找不到所以才全文转载，在文章的开头着重说明。文章已经完整的看过，与自己的经验完全吻合，可以使用。（感觉博客园的质量远远高于CSDN）</p>
+<p>Docker的使用场景（个人角度）</p>
 <ul>
-<li>Typora</li>
-<li>Markdown</li>
-</ul>
-<p>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:</p>
-<ul>
-<li>Typora</li>
-<li>Markdown</li>
-<li>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:<ul>
-<li>Typora</li>
-<li>Markdown</li>
-<li>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:<ul>
-<li>Typora</li>
-<li>Markdown</li>
-<li>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:<ul>
-<li>Typora</li>
-<li>Markdown</li>
-<li>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:<ul>
-<li>Typora</li>
-<li>Markdown</li>
+<li>配环境<ul>
+<li>深度学习的很多环境以来比较难装，或不同步，使用Docker可以解决这个问题，直接拉取镜像就能开始生产，很舒服。</li>
 </ul>
 </li>
+<li>打比赛<ul>
+<li>很多比赛的需要将算法封装在Docker中，验证的时候只需要挂载数据集，主办方就能验证参赛者代码。</li>
 </ul>
 </li>
+<li>其它</li>
 </ul>
-</li>
-<li>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:<ul>
-<li>Typora</li>
-<li>Markdown</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:</p>
-<ul>
-<li>Typora</li>
-<li>Markdown</li>
-</ul>
-<p>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:</p>
-<ul>
-<li>Typora</li>
-<li>Markdown</li>
-</ul>
-<p>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>hide: false<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:</p>
-<ul>
-<li>Typora</li>
-<li>Markdown</li>
-</ul>
+<h2 id="1-背景介绍"><a href="#1-背景介绍" class="headerlink" title="1. 背景介绍"></a>1. 背景介绍</h2><p>Docker容器启动的时候，如果要挂载宿主机的一个目录，可以用-v参数指定。</p>
+<p>譬如我要启动一个centos容器，宿主机的/test目录挂载到容器的/soft目录，可通过以下方式指定：</p>
+<p><code>docker run -it -v /test:/soft centos /bin/bash</code></p>
+<p>这样在容器启动后，容器内会自动创建/soft的目录。通过这种方式，我们可以明确一点，即-v参数中，冒号”:”前面的目录是宿主机目录，后面的目录是容器内目录。</p>
+<p>貌似简单，其实不然，下面我们来验证一下：</p>
+<h2 id="一、容器目录不可以为相对路径"><a href="#一、容器目录不可以为相对路径" class="headerlink" title="一、容器目录不可以为相对路径"></a><strong>一、容器目录不可以为相对路径</strong></h2><pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# docker run -it -v /test:soft centos /bin/bash
+invalid value "/test:soft" for flag -v: soft is not an absolute path
+See 'docker run --help'.
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>直接报错，提示<code>soft</code>不是一个绝对路径，所谓的绝对路径，必须以下斜线“/”开头。</p>
+<h2 id="二、宿主机目录如果不存在，则会自动生成"><a href="#二、宿主机目录如果不存在，则会自动生成" class="headerlink" title="二、宿主机目录如果不存在，则会自动生成"></a><strong>二、宿主机目录如果不存在，则会自动生成</strong></h2><p>如果宿主机中存在<code>/test</code>目录，首先删除它</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# rm -rf /test
+[root@localhost ~]# ls /
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>启动容器</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# docker run -it -v /test:/soft centos /bin/bash
+[root@a487a3ca7997 /]# ls
+bin  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  soft  srv  sys  tmp  usr  var
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>查看宿主机，发现新增了一个<code>/test</code>目录</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# ls /
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  test  tmp  usr  var
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h2 id="三、宿主机的目录如果为相对路径呢？"><a href="#三、宿主机的目录如果为相对路径呢？" class="headerlink" title="三、宿主机的目录如果为相对路径呢？"></a><strong>三、宿主机的目录如果为相对路径呢？</strong></h2><p>这次，我们换个目录名<code>test1</code>试试</p>
+<pre class="line-numbers language-shell"><code class="language-shell"># docker run -it -v test1:/soft centos /bin/bash
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>再到宿主机上查看是否新增了一个<code>/test1</code>目录，结果没有，是不是因为我用的是相对路径，所以生成的<code>test1</code>目录在当前目录下，结果发现还是没有。那容器内的<code>/soft</code>目录挂载到哪里去了？通过<code>docker inspect</code>命令，查看容器<code>Mounts</code>那一部分，我们可以得到这个问题的答案。</p>
+<pre class="line-numbers language-shell"><code class="language-shell">    "Mounts": [
+        {
+            "Name": "test1",
+            "Source": "/var/lib/docker/volumes/test1/_data",
+            "Destination": "/soft",
+            "Driver": "local",
+            "Mode": "z",
+            "RW": true
+        }
+    ],
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>可以看出，容器内的<code>/soft</code>目录挂载的是宿主机上的<code>/var/lib/docker/volumes/test1/_data</code>目录</p>
+<p>原来，所谓的相对路径指的是<code>/var/lib/docker/volumes/</code>，与宿主机的当前目录无关。</p>
+<h2 id="四、如果只是-v指定一个目录，这个又是如何对应呢？"><a href="#四、如果只是-v指定一个目录，这个又是如何对应呢？" class="headerlink" title="四、如果只是-v指定一个目录，这个又是如何对应呢？"></a><strong>四、如果只是-v指定一个目录，这个又是如何对应呢？</strong></h2><p>启动一个容器</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# docker run -it -v /test2 centos /bin/bash
+[root@ea24067bc902 /]# ls
+bin  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  test2  tmp  usr  var
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>同样使用<code>docker inspect</code>命令查看宿主机的挂载目录</p>
+<pre class="line-numbers language-shell"><code class="language-shell">"Mounts": [
+        {
+            "Name": "96256232eb74edb139d652746f0fe426e57fbacdf73376963e3acdb411b3d73a",
+            "Source": "/var/lib/docker/volumes/96256232eb74edb139d652746f0fe426e57fbacdf73376963e3acdb411b3d73a/_data",
+            "Destination": "/test2",
+            "Driver": "local",
+            "Mode": "",
+            "RW": true
+        }
+    ],
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>可以看出，同3中的结果类似，只不过，它不是相对路径的目录名，而是随机生成的一个目录名。</p>
+<h2 id="五、如果在容器内修改了目录的属主和属组，那么对应的挂载点是否会修改呢？"><a href="#五、如果在容器内修改了目录的属主和属组，那么对应的挂载点是否会修改呢？" class="headerlink" title="五、如果在容器内修改了目录的属主和属组，那么对应的挂载点是否会修改呢？"></a><strong>五、如果在容器内修改了目录的属主和属组，那么对应的挂载点是否会修改呢？</strong></h2><p>首先开启一个容器，查看容器内<code>/soft</code>目录的属性</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# docker run -it -v /test:/soft centos /bin/bash
+[root@b5ed8216401f /]# ll -d /soft/
+drwxr-xr-x 2 root root 6 Sep 24 03:48 /soft/
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>查看宿主机内<code>/test</code>目录的属性</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# ll -d /test/
+drwxr-xr-x 2 root root 6 Sep 24 11:48 /test/
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>在容器内新建用户，修改<code>/soft</code>的属主和属组</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@b5ed8216401f /]# useradd victor
+[root@b5ed8216401f /]# chown -R victor.victor /soft/
+[root@b5ed8216401f /]# ll -d /soft/
+drwxr-xr-x 2 victor victor 6 Sep 24 03:48 /soft/
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>再来看看宿主机内<code>/test</code>目录的属主和属组是否会发生变化？</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# ll -d /test/
+drwxr-xr-x 2 mycat mycat 6 Sep 24 11:48 /test/
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>竟然变为<code>mycat</code>了。。。</p>
+<p>原来，这个与<code>UID</code>有关系，<code>UID</code>，即“用户标识号”，是一个整数，系统内部用它来标识用户。一般情况下它与用户名是一一对应的。</p>
+<p>首先查看容器内<code>victor</code>对应的<code>UID</code>是多少，</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@b5ed8216401f /]# cat /etc/passwd | grep victor
+victor:x:1000:1000::/home/victor:/bin/bash
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p><code>victor</code>的<code>UID</code>为1000，那么宿主机内1000对应的用户是谁呢？</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# cat /etc/passwd |grep 1000
+mycat:x:1000:1000::/home/mycat:/bin/bash
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>可以看出，宿主机内UID 1000对应的用户是<code>mycat</code>。</p>
+<h2 id="六、容器销毁了，在宿主机上新建的挂载目录是否会消失？"><a href="#六、容器销毁了，在宿主机上新建的挂载目录是否会消失？" class="headerlink" title="六、容器销毁了，在宿主机上新建的挂载目录是否会消失？"></a><strong>六、容器销毁了，在宿主机上新建的挂载目录是否会消失？</strong></h2><p>在这里，主要验证两种情况：一、指定了宿主机目录，即 <code>-v /test:/soft</code>。二、没有指定宿主机目录，即<code>-v /soft</code></p>
+<p>第一种情况：</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# rm -rf /test    --首先删除宿主机的/test目录
+[root@localhost ~]# ls /    --可以看到，宿主机上无/test目录
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+[root@localhost ~]# docker run -it --name=centos_test -v /test:/soft centos /bin/bash  --启动容器，为了删除方便，我用--name参数指定了容器的名字
+[root@82ad7f3a779a /]# exit
+exit
+[root@localhost ~]# docker rm centos_test   --删除容器
+centos_test
+[root@localhost ~]# ls /   --发现 /test目录依旧存在
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  test  tmp  usr  var
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>可以看出，即便容器销毁了，新建的挂载目录不会消失。进一步也可验证，如果宿主机目录的属主和属组发生了变化，容器销毁后，宿主机目录的属主和属组不会恢复到挂载之前的状态。</p>
+<p>第二种情况，通过上面的验证知道，如果没有指定宿主机的目录，则容器会在<code>/var/lib/docker/volumes/</code>随机配置一个目录，那么我们看看这种情况下的容器销毁是否会导致相应目录的删除</p>
+<p>首先启动容器</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# docker run -it --name=centos_test -v /soft centos /bin/bash
+[root@6b75579ec934 /]# exit
+exit
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>通过<code>docker inspect</code>命令查看容器在宿主机上生成的挂载目录</p>
+<pre class="line-numbers language-shell"><code class="language-shell">    "Mounts": [
+        {
+            "Name": "b53164cb1c9f1917788638692fb22ad11994cf1fbbc2461b6c390cd3e10ea301",
+            "Source": "/var/lib/docker/volumes/b53164cb1c9f1917788638692fb22ad11994cf1fbbc2461b6c390cd3e10ea301/_data",
+            "Destination": "/soft",
+            "Driver": "local",
+            "Mode": "",
+            "RW": true
+        }
+    ],
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>对应的是<br><code>/var/lib/docker/volumes/b53164cb1c9f1917788638692fb22ad11994cf1fbbc2461b6c390cd3e10ea301/_data</code>目录</p>
+<p>销毁容器，看目录是否存在</p>
+<pre><code>[root@localhost ~]# docker rm centos_test
+centos_test
+[root@localhost ~]# ll /var/lib/docker/volumes/b53164cb1c9f1917788638692fb22ad11994cf1fbbc2461b6c390cd3e10ea301
+total 0
+drwxr-xr-x 2 root root 6 Sep 24 14:25 _data
+</code></pre>
+<p>发现该目录依旧存在，即便重启了<code>docker</code>服务，该目录依旧存在</p>
+<pre class="line-numbers language-shell"><code class="language-shell">[root@localhost ~]# systemctl restart docker
+[root@localhost ~]# ll /var/lib/docker/volumes/b53164cb1c9f1917788638692fb22ad11994cf1fbbc2461b6c390cd3e10ea301
+total 0
+drwxr-xr-x 2 root root 6 Sep 24 14:25 _data
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="七、挂载宿主机已存在目录后，在容器内对其进行操作，报“Permission-denied”。"><a href="#七、挂载宿主机已存在目录后，在容器内对其进行操作，报“Permission-denied”。" class="headerlink" title="七、挂载宿主机已存在目录后，在容器内对其进行操作，报“Permission denied”。"></a><strong>七、挂载宿主机已存在目录后，在容器内对其进行操作，报“Permission denied”。</strong></h2><p>可通过两种方式解决：</p>
+<p>1&gt; 关闭selinux。</p>
+<p>临时关闭：# setenforce 0</p>
+<p>永久关闭：修改/etc/sysconfig/selinux文件，将SELINUX的值设置为disabled。</p>
+<p>2&gt; 以特权方式启动容器 </p>
+<p>指定–privileged参数</p>
+<p>如：# docker run -it –privileged=true -v /test:/soft centos /bin/bash</p>
 
                 
             </div>
@@ -560,7 +673,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/12/25/ce-shi-zi-shu-yu-yue-du-shi-jian/">http://example.com/2021/12/25/ce-shi-zi-shu-yu-yue-du-shi-jian/</a>
+                    <a href="http://example.com/2021/12/27/dockerh-gua-zai-zong-jie/">http://example.com/2021/12/27/dockerh-gua-zai-zong-jie/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -598,8 +711,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%B5%8B%E8%AF%95/">
-                                    <span class="chip bg-color">测试</span>
+                                <a href="/tags/Docker/">
+                                    <span class="chip bg-color">Docker</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/">
+                                    <span class="chip bg-color">计算机工具</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%BD%AC%E8%BD%BD/">
+                                    <span class="chip bg-color">转载</span>
                                 </a>
                             
                         </div>
@@ -775,13 +896,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/12/27/dockerh-gua-zai-zong-jie/">
+                <a href="/2021/12/30/detectron2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Dockerh挂载总结">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Detectron2">
                         
-                        <span class="card-title">Dockerh挂载总结</span>
+                        <span class="card-title">Detectron2</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -792,7 +913,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-27
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-30
                         </span>
                         <span class="publish-author">
                             
@@ -805,16 +926,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Docker/">
-                        <span class="chip bg-color">Docker</span>
+                    <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">深度学习</span>
                     </a>
                     
-                    <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/">
-                        <span class="chip bg-color">计算机工具</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%BD%AC%E8%BD%BD/">
-                        <span class="chip bg-color">转载</span>
+                    <a href="/tags/Detectron2/">
+                        <span class="chip bg-color">Detectron2</span>
                     </a>
                     
                 </div>
@@ -828,13 +945,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/12/25/mi-ma-ce-shi/">
+                <a href="/2021/12/25/ce-shi-zi-shu-yu-yue-du-shi-jian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="密码测试">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="测试字数与阅读时间">
                         
-                        <span class="card-title">密码测试</span>
+                        <span class="card-title">测试字数与阅读时间</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -854,6 +971,14 @@
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B5%8B%E8%AF%95/">
+                        <span class="chip bg-color">测试</span>
+                    </a>
+                    
                 </div>
                 
             </div>

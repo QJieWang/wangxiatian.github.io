@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-25T12:15:57.715Z</updated>
+  <updated>2021-12-30T02:03:36.130Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Detectron2</title>
+    <link href="http://example.com/2021/12/30/detectron2/"/>
+    <id>http://example.com/2021/12/30/detectron2/</id>
+    <published>2021-12-30T02:01:48.000Z</published>
+    <updated>2021-12-30T02:03:36.130Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Detectron2&quot;&gt;&lt;a href=&quot;#Detectron2&quot; class=&quot;headerlink&quot; title=&quot;Detectron2&quot;&gt;&lt;/a&gt;Detectron2&lt;/h1&gt;&lt;h2 id=&quot;0-本文的基本信息&quot;&gt;&lt;a href=&quot;#0-本文的基本信息&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="深度学习" scheme="http://example.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Detectron2" scheme="http://example.com/tags/Detectron2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dockerh挂载总结</title>
+    <link href="http://example.com/2021/12/27/dockerh-gua-zai-zong-jie/"/>
+    <id>http://example.com/2021/12/27/dockerh-gua-zai-zong-jie/</id>
+    <published>2021-12-27T07:24:23.000Z</published>
+    <updated>2021-12-27T07:55:33.161Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;关于Docker目录挂载的总结&quot;&gt;&lt;a href=&quot;#关于Docker目录挂载的总结&quot; class=&quot;headerlink&quot; title=&quot;关于Docker目录挂载的总结&quot;&gt;&lt;/a&gt;关于Docker目录挂载的总结&lt;/h1&gt;&lt;h2 id=&quot;0-文章说明&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Docker" scheme="http://example.com/tags/Docker/"/>
+    
+    <category term="计算机工具" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="转载" scheme="http://example.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>测试字数与阅读时间</title>
     <link href="http://example.com/2021/12/25/ce-shi-zi-shu-yu-yue-du-shi-jian/"/>
     <id>http://example.com/2021/12/25/ce-shi-zi-shu-yu-yue-du-shi-jian/</id>
     <published>2021-12-25T12:13:03.000Z</published>
-    <updated>2021-12-25T12:15:57.715Z</updated>
+    <updated>2021-12-27T07:55:40.831Z</updated>
     
     
       
@@ -44,7 +96,7 @@
     <link href="http://example.com/2021/12/25/mi-ma-ce-shi/"/>
     <id>http://example.com/2021/12/25/mi-ma-ce-shi/</id>
     <published>2021-12-25T07:23:01.000Z</published>
-    <updated>2021-12-25T07:56:07.274Z</updated>
+    <updated>2021-12-27T07:55:39.894Z</updated>
     
     
       
@@ -52,27 +104,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;测试密码保护&quot;&gt;&lt;a href=&quot;#测试密码保护&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2021/12/12/hello-world/"/>
-    <id>http://example.com/2021/12/12/hello-world/</id>
-    <published>2021-12-12T13:21:04.040Z</published>
-    <updated>2021-12-12T13:21:04.040Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
